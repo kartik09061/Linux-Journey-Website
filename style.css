@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.heading{
+    color: white;
+    background-color: rgb(44,62,80);
+    display: flex;
+    padding: 20px 55px;
+    justify-content: space-between;
+    font-weight: 400;
+    
+}
+.heading-right{
+    
+    font-size: 18px;
+}
+.heading-left{
+    
+    font-size: 14px;
+}
+.main{
+    height: 90vh;
+    background-color: rgb(24,188,156);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 48px;
+    font-weight: 100;
+    flex-direction: column;
+}
+p{
+    padding-top: 35px;
+}
+.subscribe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#F7F7F7;
+}
+.subscribe-top p{
+    color: rgb(153, 153, 153);
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 20px;
+   
+}
+.subscribe-bottom input{
+    padding: 8px 10px;
+    width: 32vw;
+    color: #E9B687;
+    border-radius: 4px;
+    border-color: #ABB0B2;
+}
+.subscribe-bottom button{
+    padding: 8px 10px;
+    border: none;
+    color: #E1FFFF;
+    background-color: #18BC9C;
+    border-radius: 4px;
+}
+.Grasshopper{
+    display: flex;
+    justify-content: center;
+    color: rgb(153, 153, 153);
+    font-size: 30px;
+    font-weight: 500;
+    background-color: #F7F7F7;
+    
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    padding: 16px 55px;
+    background-color: #F7F7F7;
+    gap: 10px;
+    border-radius: 4px;
+}
+.box img{
+    border-radius: 50%;
+}
+.box1{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    height: 56vh;
+    font-weight: 400;
+    padding: 28px;
+}
+.card-heading{
+    font-weight: 700;
+    font-size: 21px;
+
+}
+.card-para{
+    font-weight: 400;
+    font-size: 14px;
+}
+.Journeyman{
+    display: flex;
+    justify-content: center;
+    color: rgb(153, 153, 153);
+    font-size: 30px;
+    font-weight: 500;
+    background-color: #F7F7F7;
+}
